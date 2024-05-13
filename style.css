@@ -81,3 +81,32 @@ input:focus{
   text-shadow: 5px 5px 5px #004cff;
   font-size: 120%;
 }
+
+#positioning-css{
+  height: 100vh;
+}
+
+#pos-fixed{
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 50px;
+}
+
+#pos-absolute{
+  background-color: yellow;
+  color: red;
+  position: absolute;
+  right: 20px;
+}
+
+header{
+  position: sticky;
+  top: 0px;
+}
+
+#pos-relative{
+  border: 5px solid black;
+  position: relative;
+  top:  0px;
+}
