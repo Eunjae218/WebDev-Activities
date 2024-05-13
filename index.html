@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>WebDev Activities</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    /* rem, em, px, % */
+    #box {
+      box-shadow: 4px 6px 10px #CC5500, -4px -6px 10px #FFFF80;
+    }
+
+    #text {
+      text-shadow: 4px 6px 1px #CC6600;
+    }
+
+    #indent {
+      text-indent: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <span class="nav"><a href="#btShadowandIndent">Text/Box shadow & Indent</a></span>
+    <span class="nav"><a href="#pseudoClass">Pseudo Classes</a></span>
+    <span class="nav"><a href="#animation">Animations</a></span>
+    <span class="nav"><a href="#boxModel">Box Models</a></span>
+  </header>
+
+  <main>
+    <hr>
+    <section id="btShadowandIndent">
+      <h1 class="title">Box shadows</h1>
+      <div id="box">
+        <p>#id/.class{ <br>
+            box-shadow: Right Bottom 10px #CC5500,(optional) -Left -Top 10px #CC5500 (optional);
+          }</p>
+      </div>
+      <div>
+        <h1>Text shadow</h1>
+        <div id="text">
+          <p>#id/.class{ <br>
+          text-shadow: Right Bottom 10px #CC5500,(optional) -Left -Top 10px #CC5500 (optional);</p>
+        </div>
+      </div>
+      <div>
+        <h1>Text Indent</h1>
+        <p>No indent</p>
+        <p id="indent">#indent {
+          text-indent: Indent Distance;
+        }</p>
+      </div>
+
+    </section>
+    <hr>
+    <section id="pseudoClass">
+      <h1 class="title">Pseudo Classes :></h1>
+      <h2 id="txt1">:hover pseudoclass</h2>
+      <h2 id="txt2">:active pseudoclass</h2>
+      <h2 id="txt3"><a href="https://www.youtube.com/">:visited/link pseudoclass</a></h2>
+      <form>
+
+        <input type="text" :focus placeholder="Enter ur name">
+        <br>
+        <input type="password" placeholder="Enter ur password">        
+      <h1>^^ :Focus pseudoclass ^^</h1>
+      </form>
+    </section>
+    <hr>
+    <section id="animation">
+      <h1 class="title">Animations</h1>
+      <div id="anim">
+        This is animation (change colours of the box )
+      </div>
+    </section>
+    <hr>
+    <section id="boxModel">
+      <h1 class="title">Box model ;)</h1>
+      <div class="imgContainer"><img id="bord" class="iMG"
+          src="https://images.unsplash.com/photo-1713617317250-c7020e06230f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="nothin"><p>A bord from unsplash</p>
+      </div>
+      <div class="imgContainer"><img id="moutain" class="iMG"
+          src="https://images.unsplash.com/photo-1713727967827-b04e5eab7d3a?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="nothin">
+        <p>image floating</p>
+      </div>
+      <div class="imgContainer"><img id="cav" class="iMG"
+          src="https://images.unsplash.com/photo-1711116180104-b737dccc850b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="nothin">
+        <p>A cav from unsplash</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <h1 id="end">END :)</h1>
+  </footer>
+</body>
+</html>

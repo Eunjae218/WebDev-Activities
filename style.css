@@ -1,0 +1,83 @@
+html {/* rem, em, px, % */
+  height: 100%;
+  width: 100%;
+} 
+#txt1:hover{
+    font-size: 2rem;
+    color: cyan;
+}
+#txt2:active{
+  color:green;
+  font-size: 2rem;
+}
+#txt3:link{
+  text-decoration: overline;
+  color: red;
+}
+#txt3:visited{
+  color: yellow;
+}
+input:focus{
+  outline-color: red;
+  background-color: cyan;
+}
+.title{
+  text-decoration: underline;
+  color: black;
+}
+.title:hover{
+  text-shadow: 5px 6px 10px black;
+}
+@keyframes anim {
+  20%   {background-color: red;}
+  20%  {background-color: white;}
+  20%  {background-color: purple;}
+  20% {background-color: cyan;}
+  20% {background-color: blue;}
+}
+#anim{
+  width: 500px;
+  height: 100px;
+  background-color: red;
+  animation: anim 4s;
+  animation-iteration-count: infinite;
+}
+
+.iMG{
+  height: 300px;
+  width: 300px;
+}
+
+.imgContainer{
+  padding: 40px;
+  border: 5px dotted red;
+  margin: 10px;
+}
+
+#moutain{
+  height: 50px;
+  width: 50px;
+  float: right;
+}
+
+#bord{
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+#cav{
+  height: 50px;
+  width: 50px;
+  float: inherita;
+}
+
+#end{
+  padding: 10px;
+  border: 5px dotted black;
+}
+
+.nav:hover{
+  text-shadow: 5px 5px 5px #004cff;
+  font-size: 120%;
+}
