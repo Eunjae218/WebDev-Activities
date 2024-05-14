@@ -77,20 +77,20 @@ input:focus{
   border: 5px dotted black;
 }
 
-.nav:hover{
-  text-shadow: 5px 5px 5px #004cff;
-  font-size: 120%;
+.nav:active{
+  text-shadow: 5px 5px 5px black;
+  font-size: 110%;
 }
 
 #positioning-css{
-  height: 100vh;
+  height: 75vh;
 }
 
 #pos-fixed{
   background-color: black;
   color: white;
   position: fixed;
-  top: 50px;
+  bottom: 10px;
 }
 
 #pos-absolute{
@@ -101,12 +101,41 @@ input:focus{
 }
 
 header{
+  box-shadow: 0px 10px 10px black;
+  background-color: white;
   position: sticky;
+  padding: 10px;
   top: 0px;
 }
 
 #pos-relative{
   border: 5px solid black;
   position: relative;
-  top:  0px;
+  top: 0px;
+}
+
+.opac{
+  background-color: blue;
+  color: white;
+  padding: 30px;
+}
+
+#opac1{
+  opacity: 0.8;
+}
+
+#opac2{
+  opacity: 0.6;
+}
+
+#opac3{
+  opacity: 0.5;
+}
+
+#opac4{
+  opacity: 0.3;
+}
+
+#opac5{
+  opacity: 0.1;
 }
